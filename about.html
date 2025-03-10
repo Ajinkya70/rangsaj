@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="wpOceans">
+    <link rel="shortcut icon" type="image/png" href="assets/images/logo.png">
+    <title> RangsajArts - Create Moments, Celebrate Life with Us</title>
+    <link href="assets/css/themify-icons.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/flaticon.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/owl.carousel.css" rel="stylesheet">
+    <link href="assets/css/owl.theme.css" rel="stylesheet">
+    <link href="assets/css/slick.css" rel="stylesheet">
+    <link href="assets/css/slick-theme.css" rel="stylesheet">
+    <link href="assets/css/swiper.min.css" rel="stylesheet">
+    <link href="assets/css/nice-select.css" rel="stylesheet">
+    <link href="assets/css/owl.transitions.css" rel="stylesheet">
+    <link href="assets/css/jquery.fancybox.css" rel="stylesheet">
+    <link href="assets/css/odometer-theme-default.css" rel="stylesheet">
+    <link href="assets/css/jquery-ui.css" rel="stylesheet">
+    <link href="assets/sass/style.css" rel="stylesheet">
+    <style>
+        /* Disable sticky effect */
+        .wpo-site-header.sticky {
+            position: static !important;
+        }
+
+        /* Prevent the margin-top change on the page-wrapper */
+        .page-wrapper {
+            margin-top: 0px !important;
+        }
+    </style>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style type="text/css">
+        .whats-app {
+            position: fixed;
+            width: 50px;
+            height: 50px;
+            bottom: 90px;
+            background-color: #25d366;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            /*box-shadow: 3px 4px 3px #999;*/
+            right: 15px;
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+            opacity: 0;
+            visibility: hidden;
+        }
+
+            .whats-app.show {
+                opacity: 1;
+                visibility: visible;
+            }
+
+        .fa-whatsapp {
+            color: #fff;
+            background: linear-gradient(#25d366, #25d366) 14% 84%/16% 16% no-repeat, radial-gradient(#25d366 60%, transparent 0);
+        }
+    </style>
+</head>
+
+<body>
+    <a href="https://api.whatsapp.com/send?phone=9819413273&text=Hey!" class="whats-app" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <!-- start page-wrapper -->
+    <div class="page-wrapper">
+        <!-- start preloader -->
+        <div class="preloader">
+            <div class="vertical-centered-box">
+                <div class="content">
+                    <div class="loader-circle"></div>
+                    <div class="loader-line-mask">
+                        <div class="loader-line"></div>
+                    </div>
+                    <img src="assets/images/logo.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- end preloader -->
+        <!-- Start header -->
+        <header id="header">
+            <div class="wpo-site-header wpo-header-style-1" id="sticky-header">
+                <nav class="navigation navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                        <div class="row align-items-center">
+                            <div class="col-md-3 col-3 d-lg-none d-block">
+                                <div class="mobail-menu">
+                                    <button type="button" class="navbar-toggler open-btn">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar first-angle"></span>
+                                        <span class="icon-bar middle-angle"></span>
+                                        <span class="icon-bar last-angle"></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-6 col-6 d-lg-block d-none">
+                                <div class="social-info">
+                                    <ul>
+                                        <li><a href="#"><i class="fi flaticon-facebook-app-symbol"></i></a></li>
+                                         <li><a href="https://www.instagram.com/_rangsaj_arts_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fi flaticon-instagram-1"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-6 d-lg-none dl-block">
+                                <div class="navbar-header">
+                                    <a class="navbar-brand" href="index.html">
+                                        <img src="assets/images/logo.png"
+                                             alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-md-1 col-1">
+                                <div id="navbar" class="collapse navbar-collapse navigation-holder">
+                                    <button class="menu-close"><i class="ti-close"></i></button>
+                                    <ul class="nav navbar-nav mb-2 mb-lg-0">
+                                        <li class="menu-item-has-children">
+                                            <a href="index.html">Home</a>
+                                        </li>
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li class="menu-item-has-children">
+                                            <a href="services.html">Services</a>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item-has-children">
+                                                    <a href="#">Wedding Related</a>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="WeddingCards.html">Wedding Cards</a></li>
+                                                        <li><a href="WeddingRukhwat.html">Wedding Rukhwat</a></li>
+                                                        <li><a href="WeddingGifts.html">Wedding Gifts</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="BirthdayGifts.html">Birthday Gifts </a></li>
+                                                <li><a href="BabyShowerGifts.html">Baby Shower Gifts</a></li>
+                                               <li><a href="NamingCeremony.html">Naming Ceremony</a></li>
+                                                <li><a href="NamingBoards.html">Naming Boards</a></li>
+                                                <li><a href="#">Paintings</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="gallery.html">Our Work</a></li>
+                                        <li><a href="contact.html">Contact Us</a></li>
+                                    </ul>
+                                </div><!-- end of nav-collapse -->
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <!--<img src="assets/images/toran.png" class="img img-responsive">-->
+            </div>
+
+
+        </header>
+        <!-- end of header -->
+        <!-- end page-title -->
+        <!-- start of wpo-about-section -->
+        <section class="wpo-about-section section-padding">
+            <div class="container">
+                <div class="wpo-about-wrap">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 col-12">
+                            <div class="wpo-about-item wow fadeInLeftSlow" data-wow-duration="1500ms">
+                                <div class="wpo-about-img">
+                                    <img src="assets/images/about/3.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-12">
+                            <div class="wpo-about-text wow fadeInRightSlow" data-wow-duration="1600ms">
+                                <h2>Rangsaj Arts</h2>
+                                <h4>
+                                    Create Moments, Celebrate Life with Us
+
+                                </h4>
+                                <p style="text-align:justify;">
+                                    At Rangsaj Arts, we celebrate life's most precious moments with creative, personalized, and beautifully crafted designs. Whether it's your wedding, a birthday, or a baby shower, we provide an array of services that bring your vision to life. Our expertise includes designing exquisite wedding cards, unique Rukhwat, and thoughtful wedding gifts. We also specialize in crafting beautiful paintings, personalized baby shower gifts, and naming boards to mark those special milestones. We pride ourselves on attention to detail and the passion we pour into every project. Let Rangsaj Arts be a part of your most memorable events with our heartfelt creations!
+                                </p>
+                                <a href="contact.html" class="theme-btn">Connect Now </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of wpo-about-section -->
+        <!-- start wpo-Service-section -->
+        <section class="wpo-Service-section-s2 section-padding">
+            <center><h2>Our Services</h2></center>
+            <div class="container-fluid">
+                <div class="wpo-Service-wrap">
+                    <div class="service-slider owl-carousel">
+
+                        <div class="wpo-Service-item">
+                            <a href="WeddingCards.html">
+                                <div class="wpo-Service-img">
+                                    <img src="assets/images/Categories/WCC.jpg" alt="">
+                                </div>
+                                <div class="wpo-Service-text">
+                                    <a href="WeddingCards.html">Wedding Cards</a>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="wpo-Service-item">
+                            <a href="WeddingRukhwat.html">
+                                <div class="wpo-Service-img">
+                                    <img src="assets/images/Categories/WRC.jpg" alt="">
+                                </div>
+                                <div class="wpo-Service-text">
+                                    <a href="WeddingRukhwat.html">Wedding Rukhwat</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="wpo-Service-item">
+                            <a href="WeddingGifts.html">
+                                <div class="wpo-Service-img">
+                                    <img src="assets/images/Categories/WGC.jpg" alt="">
+                                </div>
+                                <div class="wpo-Service-text">
+                                    <a href="WeddingGifts.html">Wedding Gifts</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="wpo-Service-item">
+                            <a href="BirthdayGifts.html">
+                                <div class="wpo-Service-img">
+                                    <img src="assets/images/Categories/BGC.jpg" alt="">
+                                </div>
+                                <div class="wpo-Service-text">
+                                    <a href="BirthdayGifts.html">Birthday Gifts</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="wpo-Service-item">
+                            <a href="BabyShowerGifts.html">
+                                <div class="wpo-Service-img">
+                                    <img src="assets/images/Categories/BSC.jpg" alt="">
+                                </div>
+                                <div class="wpo-Service-text">
+                                    <a href="BabyShowerGifts.html">Baby Shower Gifts</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="wpo-Service-item">
+                            <a href="NamingCeremony.html">
+                                <div class="wpo-Service-img">
+                                    <img src="assets/images/Categories/NCC.jpg" alt="">
+                                </div>
+                                <div class="wpo-Service-text">
+                                    <a href="NamingCeremony.html">Naming Ceremony</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="wpo-Service-item">
+                            <a href="NamingBoards.html">
+                                <div class="wpo-Service-img">
+                                    <img src="assets/images/Categories/NBC.jpg" alt="">
+                                </div>
+                                <div class="wpo-Service-text">
+                                    <a href="NamingBoards.html">Naming Boards</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="wpo-Service-item">
+                            <div class="wpo-Service-img">
+                                <img src="assets/images/Categories/img-4.jpg" alt="">
+                            </div>
+                            <div class="wpo-Service-text">
+                                <a href="service-single.html">Paintings</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end Service-section -->
+        <!-- wpo-site-footer start -->
+        <div class="wpo-site-footer text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-image">
+                            <a class="logo" href="index.html"><img src="assets/images/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="footer-link">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="gallery.html">Our Work</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="link-widget">
+                            <ul>
+                                <li><a href="#"><i class="fi flaticon-facebook-app-symbol"></i></a></li>
+                                 <li><a href="https://www.instagram.com/_rangsaj_arts_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fi flaticon-instagram-1"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="copyright">
+                            <p>© Copyright 2025 | <a href="index.html">RangsajArts</a> | All right reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- wpo-site-footer end -->
+
+    </div>
+    <!-- end of page-wrapper -->
+    <!-- All JavaScript files
+    ================================================== -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugins for this template -->
+    <script src="assets/js/modernizr.custom.js"></script>
+    <script src="assets/js/jquery.dlmenu.js"></script>
+    <script src="assets/js/jquery-plugin-collection.js"></script>
+    <!-- Custom script for this template -->
+    <script src="assets/js/script.js"></script>
+    <script>
+        // Get the WhatsApp button
+        var whatsappButton = document.querySelector('.whats-app');
+
+        // Show/Hide button based on scroll
+        window.addEventListener('scroll', function () {
+            if (window.scrollY > 100) { // Show button after scrolling 100px
+                whatsappButton.classList.add('show');
+            } else { // Hide button when near the top
+                whatsappButton.classList.remove('show');
+            }
+        });
+    </script>
+</body>
+
+</html>

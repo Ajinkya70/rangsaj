@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday My Love</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            width: 60%;
+            max-width: 600px;
+            position: relative;
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #ff9a9e;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 28px;
+            color: #ff5f6d;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        p {
+            font-size: 18px;
+            color: #333;
+            animation: slideIn 2s ease-in-out;
+        }
+
+        .heart {
+            font-size: 30px;
+            color: red;
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(20px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.2);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: #ff5f6d;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+            .btn:hover {
+                background: #ff3e50;
+            }
+
+        .floating-items {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+            pointer-events: none;
+        }
+
+            .floating-items i {
+                position: absolute;
+                font-size: 24px;
+                animation: float 4s infinite linear;
+                color: #ff5f6d;
+            }
+
+        @keyframes float {
+            from {
+                transform: translateY(100vh) scale(0.5);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateY(-10vh) scale(1);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="floating-items">
+        <i class="fas fa-heart" style="left: 20%; animation-duration: 3s;"></i>
+        <i class="fas fa-paint-brush" style="left: 40%; animation-duration: 4s;"></i>
+        <i class="fas fa-palette" style="left: 60%; animation-duration: 5s;"></i>
+        <i class="fas fa-heart" style="left: 80%; animation-duration: 6s;"></i>
+    </div>
+    <div class="container">
+        <img src="your-image-url-here.jpg" alt="Her Photo">
+        <h1>Happy Birthday My Love! ❤️</h1>
+        <p>Dear Yami,</p>
+        <p>On this special day, I just want to tell you how incredibly proud I am of you. Your creativity, passion, and hard work inspire me endlessly.</p>
+        <p>I feel so lucky to stand by your side, cheering you on as you turn your dreams into reality. May this year bring you all the happiness, success, and love you deserve. I love you always! ❤️</p>
+        <a href="index.html" class="btn">Unlock Your Gift!!!</a>
+    </div>
+</body>
+</html>
